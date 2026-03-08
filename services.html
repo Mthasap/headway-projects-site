@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us — Headway Projects Pty Ltd</title>
+  <link rel="stylesheet" href="headway.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <img src="images/04f8b7ba-c838-48a6-9ccf-b1238453b609.jpg" class="logo" alt="Headway Projects Logo">
+    <ul>
+      <li><a href="headway.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero services-hero">
+    <div class="hero-inner">
+      <div class="hero-eyebrow"><span></span> Get In Touch <span></span></div>
+      <h1>Let's Start a<br><em>Conversation</em></h1>
+      <p class="hero-sub">
+        Whether you're ready to transform your property operations or simply want to explore 
+        what's possible, our team is ready to listen.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── CONTACT SECTION ── -->
+  <div class="contact-section">
+
+    <!-- Left: Info -->
+    <div class="contact-info">
+      <div class="section-label"><span></span> Reach Out</div>
+      <h2 class="section-title">We'd Love to<br>Hear From You</h2>
+      <p class="section-body" style="margin-bottom: 40px;">
+        Our team typically responds within one business day. 
+        For urgent enquiries, please call us directly.
+      </p>
+
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+        <div>
+          <h3>Email Us</h3>
+          <p>info@headwayprojects.co.za</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+        <div>
+          <h3>Call Us</h3>
+          <p>+27 11 123 4567</p>
+          <p style="font-size:0.82rem; margin-top:2px;">Mon – Fri, 08:00 – 17:00 SAST</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-location-dot"></i></div>
+        <div>
+          <h3>Visit Us</h3>
+          <p>123 Business Lane<br>Johannesburg, South Africa</p>
+        </div>
+      </div>
+
+      <div style="margin-top: 40px;">
+        <div class="section-label" style="margin-bottom: 16px;"><span></span> Follow Us</div>
+        <div class="social-icons" style="justify-content:flex-start;">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Form -->
+    <div class="contact-form-wrapper">
+      <h3>Send Us a Message</h3>
+      <form id="contactForm" novalidate>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Jane" required />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Doe" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="jane@company.co.za" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+27 82 000 0000" />
+        </div>
+
+        <div class="form-group">
+          <label for="service">Service of Interest</label>
+          <select id="service" name="service">
+            <option value="" disabled selected>Select a service...</option>
+            <option>Website Creation & Maintenance</option>
+            <option>Logistics — Side Tipper Trucks</option>
+            <option>Logistics — Water Tanker & Supply</option>
+            <option>Air-Conditioning Supply & Installation</option>
+            <option>Refrigeration Supply & Installation</option>
+            <option>DTF Printing</option>
+            <option>Sublimation Printing</option>
+            <option>Screen Printing</option>
+            <option>Embroidery</option>
+            <option>Blank / Printed T-Shirts Supply</option>
+            <option>General Enquiry</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Tell us about your property and what you're looking to achieve..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+
+        <div class="form-success" id="formSuccess">
+          <i class="fas fa-circle-check" style="font-size:2rem; margin-bottom:12px; display:block;"></i>
+          Thank you! We'll be in touch within one business day.
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/04f8b7ba-c838-48a6-9ccf-b1238453b609.jpg" alt="Headway Projects Logo">
+        <p>A proudly South African multi-service company — websites, logistics, air-conditioning, and printing, all under one trusted name.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="headway.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Website Development</a></li>
+          <li><a href="services.html">Logistics & Water Supply</a></li>
+          <li><a href="services.html">Air-Con & Refrigeration</a></li>
+          <li><a href="services.html">Printing & Apparel</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-contact-list">
+          <li><i class="fas fa-envelope"></i> info@headwayprojects.co.za</li>
+          <li><i class="fas fa-phone"></i> +27 11 123 4567</li>
+          <li><i class="fas fa-location-dot"></i> 123 Business Lane, Johannesburg</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Headway Projects Pty Ltd. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── TOAST ── -->
+  <div class="toast" id="toast">
+    <i class="fas fa-circle-check"></i>
+    <span>Message sent! We'll be in touch soon.</span>
+  </div>
+
+  <script>
+    // Navbar scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Form submission
+    const form = document.getElementById('contactForm');
+    const toast = document.getElementById('toast');
+    const success = document.getElementById('formSuccess');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      // Basic validation
+      const required = form.querySelectorAll('[required]');
+      let valid = true;
+      required.forEach(el => {
+        if (!el.value.trim()) {
+          el.style.borderColor = '#ef4444';
+          valid = false;
+        } else {
+          el.style.borderColor = '';
+        }
+      });
+
+      if (!valid) return;
+
+      // Simulate send
+      const btn = form.querySelector('.btn-submit');
+      btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+      btn.style.pointerEvents = 'none';
+
+      setTimeout(() => {
+        form.style.display = 'none';
+        success.style.display = 'block';
+
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 4000);
+      }, 1600);
+    });
+
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.contact-item, .contact-form-wrapper').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(24px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>
